@@ -46,11 +46,13 @@ section{
 .navbar .logo span{
   color:yellow;
   font-size: 3rem;
+text-transform: uppercase;
 }
 
 .navbar .logo {
   color: white;
   font-size: 3rem;
+text-transform: uppercase;
 }
 
 
