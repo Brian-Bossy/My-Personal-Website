@@ -331,6 +331,7 @@ a:hover::after {
     margin:10px;
    border 2px solid transparent;
    animation: border-animation 2s ease-in-out infinite;
+   background-color:yellow;
 }
 .social-icons a:hover {
    border-color: #fff;
