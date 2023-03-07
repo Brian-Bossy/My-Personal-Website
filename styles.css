@@ -316,24 +316,38 @@ a:hover::after {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 10px;
-    background-color: yellow;
+    
+    
    
     
     
 }
 
 .social-icons a {
-    display: block;
-    width: 25px;
-    height:25px;
-    margin:3px 0;
-    color: #171324;
-    padding: 5px;
-    margin-left: 10px;
-    font-size: 30px;
+    display: inline-block;
+    width: 40px;
+    height:40px;
+   border-radius:50%;
+    margin:10px;
+   border 2px solid transparent;
+   animation: border-animation 2s ease-in-out infinite;
 }
-
+.social-icons a:hover {
+   border-color: #fff;
+}
+@keyframes border-animation {
+   0% {
+      border-color: #ff2d5f;
+      transform: scale(1);
+   }
+   50% {
+      border-color: #00e6e6;
+      transform: scale(1.2);
+   }
+   100% {
+      border-color: #ff2d5f;
+      transform: scale(1);
+   }
 
 
 
