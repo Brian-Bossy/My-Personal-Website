@@ -32,6 +32,7 @@ html{
 section{
     padding:1rem 5%;
     min-height: 100vh;
+    
 }
 
 
@@ -40,7 +41,7 @@ section{
 
   header {
     background: #171324;
-    height: 100px;
+    height: 200px;
   } 
 
 .navbar .logo span{
@@ -329,9 +330,12 @@ a:hover::after {
     height:40px;
    border-radius:50%;
     margin:10px;
-   border 2px solid transparent;
+   border: 5px solid transparent;
    animation: border-animation 2s ease-in-out infinite;
-   background-color:yellow;
+ font-size: 30px;
+ align-items: center;
+ background-color: white;
+ justify-content: space-between;
 }
 .social-icons a:hover {
    border-color: #fff;
@@ -349,6 +353,7 @@ a:hover::after {
       border-color: #ff2d5f;
       transform: scale(1);
    }
+  }
 
 
 
