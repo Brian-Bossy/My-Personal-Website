@@ -385,6 +385,8 @@ a:hover::after {
 }
 .social-icons a:hover {
    border-color: #fff;
+   width:50px;
+   height:50px;
 }
 @keyframes border-animation {
    0% {
