@@ -799,10 +799,13 @@ form button[type="submit"] {
 
 
 .footer i {
-  font-size: 30px;
-  padding: 8px;
+  font-size: 40px;
+  padding: 10px;
   border-radius: 50%;
   color: green;
   background: #332a49;
   overflow: hidden;
+  margin-bottom: 5px;
+  margin-left: 5px;
+ 
 }
