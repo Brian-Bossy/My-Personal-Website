@@ -41,19 +41,41 @@ section{
 
   header {
     background: #171324;
-    height: 200px;
+    height: 250px;
+    
   } 
+
+
+
+  .header-img{
+width:50px;
+border-radius: 6px;
+height:50px;
+margin-right: 10px;
+
+  }
+
+  .header-img:hover{
+    width:60px;
+    height: 60px;
+  }
+
 
 .navbar .logo span{
   color:yellow;
   font-size: 3rem;
 text-transform: uppercase;
+margin: 0;
+top:0
+
 }
 
 .navbar .logo {
   color: white;
   font-size: 3rem;
 text-transform: uppercase;
+margin:0;
+top:0;
 }
 
 
@@ -116,7 +138,7 @@ list-style: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
-  height: 21px;
+  height: 30px;
 }
 
 .toggle-button .bar {
@@ -132,6 +154,8 @@ list-style: none;
       align-items: flex-start;
   }
 
+ 
+
   .toggle-button {
       display: flex;
   }
@@ -139,6 +163,7 @@ list-style: none;
   .navbar-links {
       display: none;
       width: 100%;
+      
   }
 
   .navbar-links ul {
@@ -178,7 +203,7 @@ list-style: none;
 
 
 #home {
-height: 100vh;
+height: 1000px;
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -189,8 +214,29 @@ gap:1.5rem;
 color:white;
 border-width: 0;
 border-radius: 5px;
+}
+.home-img {
+border-radius: 50%;
+border: 4px solid yellowgreen;
+height: 350px;
+background-color: white;
+width: 350px;
+
+
 
 }
+
+.home-img:hover{
+  background-color: purple;
+  width:400px;
+  height:400px;
+  
+  
+}
+
+
+
+
 #home .hi {
     font-size: 5rem;
     font-weight: 700;
@@ -200,7 +246,7 @@ border-radius: 5px;
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 2rem; 
-    color:orangered;
+    color:purple;
 }
 
 #home .info {
@@ -406,8 +452,8 @@ align-items: center;
 
 #about .tech-stacks li i{
 margin-right: 10px;
-font-size: 70px;
-color:#007bff
+font-size: 80px;
+color:white;
 
 }
 
@@ -443,7 +489,7 @@ color:#007bff
     padding: 20px 0;
     line-height: 1.5;
     font-size: 18px;
-    color:red;
+    color:white;
 }
 #service .box i{
   height: 60px;
@@ -623,6 +669,7 @@ color: #ccc;
   #contact {
     background-color: #765d41;
     padding: 80px 0;
+    ;
   }
   #contact .heading {
     text-align: center;
@@ -673,6 +720,17 @@ color: #ccc;
 
 
 
+#my-form label{
+  display: block;
+  margin-bottom:5px;
+  font-weight: bold;
+  font-size: 18px;
+  color:#f2f2f2;
+}
+
+
+
+
 
 
 
@@ -690,14 +748,14 @@ form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
 }
 form button[type="submit"] {
     display: block;
     margin: 0 auto;
-    
+    color:white;
     background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
     text-decoration: none;
@@ -722,6 +780,7 @@ form button[type="submit"] {
     0 0 30px var(--clr),
     0 0 60px var(--clr),
     0 0 100px var(--clr);
+    color:black;
   }
  
   
@@ -738,20 +797,7 @@ form button[type="submit"] {
 
 
 
-::webkit-scrollbar {
-  width:10px;
-}
 
-::-webkit-scrollbar-track{
-  background-color: greenyellow;
-}
-  
-::-webkit-scrollbar-thumb {
-  background-color: #888;
-}
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
-}
 .footer i {
   font-size: 30px;
   padding: 8px;

@@ -15,6 +15,7 @@ form.addEventListener('submit', (e) => {
     } else {
         form.submit();
     }
+    alert('Form submitted succesfully!')
 }
 );
 
@@ -61,7 +62,7 @@ function validateForm() {
 
 // delete everything from the form after a user has submitted details
 function resetForm() {
-    document.forms["myForm"].reset();
+    document.forms["my-form"].reset();
   }
   
 //  alert for thank you for submitting your details
@@ -69,7 +70,7 @@ function submitForm() {
     
     var messageElement = document.createElement("p");
     messageElement.innerHTML = "Thank you for submitting your details!";
-    document.getElementById("form-container").appendChild(messageElement);
+    document.getElementById("my-form").appendChild(messageElement);
   }
   
  
